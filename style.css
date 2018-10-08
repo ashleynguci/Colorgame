@@ -1,0 +1,40 @@
+.gameboard{
+    padding-top: 20px;
+    padding-bottom: 20px;
+background-color: rgb(45,47,61);
+}
+#panel {
+    text-align: center;
+}
+#taskbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+max-width: 450px;
+margin: 8px auto;
+}
+#easy{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+max-width: 450px;
+grid-auto-rows: 150px;
+margin: 0 auto;
+
+}
+#hard{
+grid-template-columns: 1fr 1fr 1fr;
+max-width: 450px;
+margin: 0 auto;
+grid-auto-rows: 150px;
+display: grid;
+
+}
+#easy div{
+  background-color: black;
+    margin: 5px;
+    border-radius: 10px;
+}
+#hard div{
+  background-color: black;
+    margin: 5px;
+    border-radius: 10px;
+}
